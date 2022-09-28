@@ -1,3 +1,4 @@
+/*ensures that all elements are sized in this more intuitive way*/
 * {
   box-sizing: border-box;
   padding: 0;
@@ -7,7 +8,7 @@
 body {
   background-color: #d9dcd6;
 }
-
+/* colour white for header */
 .header {
   padding: 20px;
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
@@ -32,20 +33,21 @@ body {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   font-size: 20px;
 }
-
+/* defaults contents of a list items marker */
 .header nav ul {
   list-style-type: none;
 }
-
+/* determines type of box generated for list */
 .header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
-
+/* color white for a */
 a {
   color: #ffffff;
   text-decoration: none;
 }
+/* add img to app and adjust size */
 .hero {
   height: 800px;
   width: 100%;
@@ -60,7 +62,7 @@ a {
   display: inline-block;
   margin-left: 20px;
 }
-
+/* configure article with blue background & white text */
 .search-engine-optimization {
   margin-bottom: 20px;
   padding: 50px;
@@ -69,9 +71,11 @@ a {
   background-color: #0072bb;
   color: #ffffff;
 }
+
 .search-engine-optimization img {
   max-height: 200px;
 }
+
 .float-left {
   float: left;
   margin-right: 25px;
@@ -85,7 +89,7 @@ a {
 p {
   font-size: 16px;
 }
-
+/* color white & background color blue */
 .online-reputation-management {
   margin-bottom: 20px;
   padding: 50px;
@@ -106,6 +110,7 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
+/* color white & background colour blue */
 .social-media-marketing {
   margin-bottom: 20px;
   padding: 50px;
@@ -121,6 +126,7 @@ p {
   margin-bottom: 20px;
   font-size: 36px;
 }
+/* background colour blue */
 .benefits {
   margin-right: 20px;
   padding: 20px;
@@ -131,17 +137,17 @@ p {
   font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
   background-color: #2589bd;
 }
-
+/* colour white */
 .benefit-lead {
   margin-bottom: 32px;
   color: #ffffff;
 }
-
+/* colour white */
 .benefit-brand {
   margin-bottom: 32px;
   color: #ffffff;
 }
-
+/* colour white */
 .benefit-cost {
   margin-bottom: 32px;
   color: #ffffff;
@@ -177,12 +183,6 @@ p {
   margin: 10px auto;
   max-width: 150px;
 }
-
-
-
-
-
-
 
 .footer {
   padding: 30px;
