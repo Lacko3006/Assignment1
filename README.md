@@ -8,7 +8,7 @@ This project was build to demonstrate my abillity to solve problems within pre m
 
 ## Mock Up
 
-Horiseon Social Solution ![alt text](./assets/images/mockup1.png)
+![Horiseon Social Solution](./assets/images/mockup1.png)
 
 ## Link
 https://lacko3006.github.io/Assignment1/
